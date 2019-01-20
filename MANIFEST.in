@@ -1,0 +1,4 @@
+include README.md LICENSE Makefile CONTRIBUTING.md tox.ini
+recursive-include tests *.py
+global-exclude *.py[co]
+
