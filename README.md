@@ -1,5 +1,5 @@
 <h1 align="center">subsoffset</h1>
-<h3 align="center">summary</h3>
+<h3 align="center">Tool for applying offsets to a subtitles file</h3>
 
 <p align="center">
 <a href="https://travis-ci.org/aluttik/subsoffset"><img alt="Build status" src="https://img.shields.io/travis/aluttik/subsoffset/master.svg"></a>
@@ -13,3 +13,19 @@
 
     pip install subsoffset
 
+## Usage
+
+```
+usage: subsoffset <command> [options]
+
+Tool for applying offsets to a subtitles file
+
+optional arguments:
+  -h, --help      show this help message and exit
+  -V, --version   show program's version number and exit
+
+commands:
+  add             Apply a positive offset to the file.
+  sub             Apply a negative offset to the file.
+  help            show help for commands
+```
